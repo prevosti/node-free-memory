@@ -1,0 +1,30 @@
+{
+  "name": "free-memory",
+  "version": "1.0.0",
+  "description": "Gets system memory information (from free) in a nicely formatted way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timjrobinson/node-free-memory.git"
+  },
+  "keywords": [
+    "free",
+    "free",
+    "memory",
+    "memory",
+    "information",
+    "meminfo"
+  ],
+  "author": "Tim Robinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timjrobinson/node-free-memory/issues"
+  },
+  "homepage": "https://github.com/timjrobinson/node-free-memory#readme",
+  "devDependencies": {
+    "tap": "^5.7.0"
+  }
+}
