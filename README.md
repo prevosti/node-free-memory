@@ -43,3 +43,14 @@ free(function (err, info) {
 - All values are integers in Kb, same as free output. Divide by 1024 to get MB.
 - mem.usable is same as mem.free + mem.buffers + mem.cached
 - buffers and cache are the same values. 
+
+
+## Test
+
+```
+npm test
+```
+
+## License
+
+MIT
