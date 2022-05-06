@@ -18,9 +18,8 @@ function run(args, cb) {
 						used: cl[2],
 						free: cl[3],
 						shared: cl[4],
-						buffers: cl[5],
-						cached: cl[6],
-						usable: cl[3] + cl[5] + cl[6]
+						buffers_cached: cl[5],
+						usable: cl[6]
 					};
 				    break;
 				case "-/+ buffers/cache:":
